@@ -1,3 +1,3 @@
 'use strict';
-// Only public Supabase connection settings belong here. Never paste a secret key.
-window.PLANNER_CONFIG=Object.freeze({supabaseUrl:'',publishableKey:'',bucket:'planner-private'});
+// Public connection settings only. Never add a secret key.
+window.PLANNER_CONFIG=Object.freeze({"supabaseUrl":"https://elfxjjjxennzpmgdouzc.supabase.co","publishableKey":"sb_publishable_KHqv8hAYoLbkUAUBowqR0A_W2_xw6ex","bucket":"planner-private"});
